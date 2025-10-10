@@ -1,0 +1,3 @@
+- $bababb \rightarrow bbabb$ (правило $ababb \rightarrow babb$)
+- $bbabb \rightarrow baababb$ (правило $bba \rightarrow baaba$)
+- $baababb \rightarrow bababb$ (правило $ababb \rightarrow babb$)
