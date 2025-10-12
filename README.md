@@ -3,17 +3,17 @@
 - $baababb \rightarrow bababb$ (правило $ababb \rightarrow babb$)
 Пусть есть матрица 
    $$ 
-   A = \begin{pmatrix} 
+   A = \begin{bmatrix} 
      1 & 0 \\
      0 & 1 \\
-   \end{pmatrix}$
+   \end{bmatrix}$
    и матрица
    $$
    $$ 
-   B = \begin{pmatrix} 
+   B = \begin{bmatrix} 
      2 & -1 \\
      2 & -1 \\
-   \end{pmatrix}$
+   \end{bmatrix}$
    и матрица
    $$
    , тогда если в строке заменить букву $a$ на матрицу A, 
