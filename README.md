@@ -1,21 +1,26 @@
 - $bababb \rightarrow bbabb$ (правило $ababb \rightarrow babb$)
 - $bbabb \rightarrow baababb$ (правило $bba \rightarrow baaba$)
 - $baababb \rightarrow bababb$ (правило $ababb \rightarrow babb$)
-Пусть есть матрица 
-   $$ 
-   A = \begin{bmatrix} 
-     1 & 0 \\
-     0 & 1 \\
-   \end{bmatrix}$
-   и матрица
-   $$
-   $$ 
-   B = \begin{bmatrix} 
-     2 & -1 \\
-     2 & -1 \\
-   \end{bmatrix}$
-   и матрица
-   $$
-   , тогда если в строке заменить букву $a$ на матрицу A, 
+Пусть есть матрица A
+   <table>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+</table>
+   и матрица B
+   <table>
+  <tr>
+    <td>2</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>-1</td>
+</table>
+   ,тогда если в строке заменить букву $a$ на матрицу A, 
    букву $b$ на матрицу B и поставить между матрицами знаки умножить, то в исходной системе 
-   при применении любого правила результат умножения не изменится. Тестирование показало, что этот инвариант также выполняется и в новой системе $T'$.
+
